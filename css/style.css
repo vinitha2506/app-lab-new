@@ -398,14 +398,17 @@ pre {
 }
 
 .box-right {
+  height:auto ;
+  width: 200px;
   position: relative;
   float: left;
-  margin: 0;
+  margin-right:100px;
   margin-bottom: 1em;
   padding: 0.5rem;
   padding-bottom: 30px;
   background: transparent;
-  overflow-y: auto;
+  margin-top: 100px;
+  /* overflow-y: auto; */
 }
 
 /* left boxes */

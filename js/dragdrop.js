@@ -163,7 +163,14 @@ const removeDivsToSave = () => {
  */
 const tpl = {
   'Form': '<form method="post" enctype="text/plain" id="form"></form>',
-  'Text Field': '<input type="text" id="Name" placeholder="YOUR NAME" class="form-control" required></input>',
+  'Text Field': '<input type="text" id="Name" class="form-control">', 		
+//   'Heading':'<h1>Form Heading</h1>',
+  'short text':'<p>Description of the from</p>',
+  'Options' : '<select id="Options" class="form-control"></select>',
+  'Date picker':' <input type="date" id="Date picker" class="form-control">',
+  'Image upload':'<input type="file" id="img"  accept="image/*" class="form-control">',
+ 'Radio':'<input type="radio" id="radio" class="form-control" > ',
+ 
   };
 
 /**
